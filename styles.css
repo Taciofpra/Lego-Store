@@ -359,6 +359,9 @@ aside li{
     list-style-type: none;
     justify-content: center;
 }
+.legais{
+    text-decoration: none;
+}
 
 @media(max-width:600px){
     
