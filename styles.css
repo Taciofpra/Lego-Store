@@ -1,0 +1,490 @@
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    box-sizing: border-box;
+
+}
+
+body{
+    margin:0;
+    width: 100vw;
+}
+.banner{
+    width: 100vw;
+}
+/******************************/
+/*****Ajustando o Cabeçalho****/
+/******************************/
+
+header{
+    background: #B41722; 
+    background: linear-gradient(90deg, #B41722, #E61C28);
+    margin: 0;
+}
+header img{
+    display: flex;
+    justify-content: center;
+}
+
+/*ajusta menu de navegação*/
+header ul{
+    list-style-type: none;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    justify-content: flex-end;
+    background: #B41722; 
+    background: linear-gradient(120deg, #B41722, #E61C28);
+}
+
+header li{
+    padding-right: 50px;
+    text-decoration: none;
+}
+
+header a{
+    text-decoration: none;
+    color: aliceblue;
+}
+/*Ajusta decoração do menu para cada pagina*/
+.home{
+    text-decoration: underline;
+    text-decoration-color: #F8BF2A;
+    text-decoration-thickness:4px;
+}
+.produtos{
+    text-decoration: underline;
+    text-decoration-color: #F8BF2A;
+    text-decoration-thickness:4px;
+}
+.contato{
+    text-decoration: underline;
+    text-decoration-color: #F8BF2A;
+    text-decoration-thickness:4px;
+}
+
+.hover:hover{
+    text-decoration: underline;
+    text-decoration-color: #F8BF2A;
+    text-decoration-thickness:4px;
+}
+
+
+/*************************/
+/****Ajustando o Body*****/
+/*************************/
+
+
+    h2{
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-color: #B41722;
+        text-decoration-thickness: 4px;
+        font-size: xx-large;
+        font-weight: 700;
+    }
+    .artigo{
+        display: flex;
+        justify-content: space-around;
+    }
+    .artigo2{
+        display: flex;
+        justify-content:space-around;
+        width: 80vw;
+    }
+
+    .p1{
+        display: flex;
+        justify-content: center;
+        height: 600px;
+    }
+
+    .artigo p{
+        height: 450px;
+        width: 550px;
+        text-align: right;
+        font-size: x-large;
+        color: #5E5858;
+        font-weight: 700;
+    }
+
+    .p1 p{
+        height: 450px;
+        width: 550px;
+        font-size: x-large;
+        color: #5E5858;
+        font-weight: 700;
+    }
+
+    .p2{
+        height: 450px;
+        width: 550px;
+        font-size: x-large;
+        color: #5E5858;
+        font-weight: 700;
+    }
+    .p2{
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+        margin-bottom: 200px;
+    }
+    .p2 p{
+        width: 450px;
+        height: 550px;
+        font-size: x-large;
+        color: #5E5858;
+        font-weight: 700;
+
+    }
+
+
+/*********************/
+/****Codigo pag 2*****/
+/*********************/
+
+.loja{
+    display: flex;
+    justify-content: center;
+}
+.loja article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.loja h2{
+    text-decoration: none;
+    background-color:#E61C28;
+    color: aliceblue;
+    padding: 7px;
+    width: 200px;
+    border-radius: 10px;
+}    
+
+.loja a{
+    text-decoration: none;
+}
+
+.loja h2:hover{
+    background-color:#B41722;
+}
+
+.item{
+
+    width: 330px;
+    text-align: center;
+}
+/***********************/
+/****Codigo Pagina 3****/
+/***********************/
+ 
+/* Estilo da caixa de formulário */
+.container {
+    width: 1200px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 
+   
+   
+}
+ .tudo{
+    display: flex;
+    justify-content: center;
+}
+
+ 
+/* Organização em duas colunas com Flexbox */
+.form-content {
+    display: flex;
+    gap: 20px;
+    
+}
+ 
+.form-left, .form-right {
+    flex: 1;
+}
+ 
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px; 
+    padding-right: 20px; 
+  
+}
+ 
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+}
+ 
+input, textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 4px;
+    resize: none;
+    width: 100%;
+    background-color:#D9D9D9
+}
+ 
+/* Estilo do botão de envio */
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    background-color:#E61C28;
+}
+.submit-btn:hover{
+    background-color:#B41722;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.for section{
+    text-align: center;
+}
+
+/*************************/
+/****Ajustando Rodapé*****/
+/*************************/
+
+
+.rodape{
+    display: flex;
+    list-style-type: none;
+    background: #B41722; 
+    background: linear-gradient(90deg, #B41722, #E61C28);
+    justify-content: center;
+}
+
+.naveg{
+    display: flex;
+    padding:60px;
+    align-items: center;
+}
+
+.naveg li{
+    height: 60px;
+    display: flex;
+    padding-left: 80px;;
+    align-items: flex-end;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.naveg a{
+    text-decoration: none;
+}
+
+.socials section{
+    text-align: center;
+}
+
+.teste{
+    display: flex;
+    justify-content: flex-end;
+}
+
+aside{
+    height: 240px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+}
+
+.socials i{
+    padding-top: 18px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+    margin-left:10px;
+    margin-right: 10px;
+    background-color: aliceblue;
+    color:#B41722;
+    height: 39px;
+    width: 39px;
+}
+
+.socials section{
+    padding-bottom:26px
+}
+
+aside li{
+    width: 380px;
+    display: flex;
+    justify-content: center;
+}
+
+.legais nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background: #B41722; 
+    background: linear-gradient(90deg, #B41722, #E61C28);
+    padding: 10px;
+}
+
+.legais li{
+    padding: 10px;
+    color: white;
+    font-weight: 100;
+}
+
+.legais2 {
+    display: flex;
+    background-color:#F8BF2A;
+    list-style-type: none;
+    justify-content: center;
+}
+
+@media(max-width:600px){
+    
+    /*******************************/
+    /****Arrumando Header Mobile****/
+    /*******************************/
+    
+    header{
+        width: 100vw;
+        background: #B41722; 
+        background: linear-gradient(90deg, #B41722, #E61C28);
+    }
+    header ul{
+        list-style-type: none;
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        justify-content: center;
+        background: #B41722; 
+        background: linear-gradient(90deg, #B41722, #E61C28);
+    }
+    
+    /*****************************/
+    /***Arrumando Body da Home****/
+    /*****************************/
+    
+    .artigo{
+        flex-wrap: wrap;
+        text-align: justify;
+    }
+    .artigo p{
+        max-width: 90vw;
+    }
+    .p1{
+        display: inline;
+        flex-direction: column;
+        width: 100vw;
+        text-align: justify;
+        align-content: center;
+    }
+    .p1 img{
+        width: 50vw;
+        display: flex;
+        margin-left: 70px;
+    }
+    .p1 figure{
+        padding-right: 60px;
+    }
+    .p1 p{
+        flex-wrap: wrap;
+        font-size: medium;
+        text-align: justify;
+    }
+
+    
+    h2{
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-color: #B41722;
+        text-decoration-thickness: 4px;
+        font-size: xx-large;
+        font-weight: 700;
+    }
+    
+    /******************************/
+    /****Arrumando aba Produtos****/
+    /******************************/
+    
+    .loja{
+        flex-wrap: wrap;
+    }
+    
+    .banner{
+        width: 100vw;
+    }
+    
+    /*******************************/
+    /****Arrumando Footer Mobile****/
+    /*******************************/
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+    }
+    .rodape{
+        width: 100vw;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .naveg{
+        width:0px;
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+    }
+    .naveg li{
+        display: flex;
+        align-content: center;
+        width: 10px;
+        padding: 0;
+    }
+
+    .socials{
+        justify-content: center;
+    }
+    .teste{
+        display: flex;
+        justify-content: center;
+    }
+    
+    aside{
+        display: flex;
+    }
+    aside li{
+        display: flex;
+        text-align: left;
+        justify-content: flex-start;
+        padding-left: 100vw;
+    }
+    .legais{
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+    .legais nav{
+        flex-wrap: wrap;
+    }
+    
+}
