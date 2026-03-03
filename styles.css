@@ -359,7 +359,7 @@ aside li{
     list-style-type: none;
     justify-content: center;
 }
-.legais{
+.legais a{
     text-decoration: none;
 }
 
@@ -490,4 +490,5 @@ aside li{
         flex-wrap: wrap;
     }
     
+
 }
